@@ -5,13 +5,13 @@
 }
 
  :root {
-    --orange: #e6e2d9;
+    --orange: rgb(36, 128, 189);
     --winning-block: #74f1f1;
 
 }
 
 body {
-    /* color: var(--orange); */
+    color: var(--orange);
     font-family:'finger paint', cursive;
     
 }
@@ -19,6 +19,7 @@ body {
 h1 {
     font-size: 54px;
     text-transform: uppercase;
+    
 }
 
 .container {

@@ -28,7 +28,7 @@ function boxClicked(e) {
             winning_blocks.map(box => boxes[box].style.backgroundColor=winnerIndicator)
              return;
         }
-        currentPlayer = currentPlayer == x_TEXT ? o_TEXT : x_TEXT;
+        currentPlayer = currentPlayer == X_TEXT ? O_TEXT : X_TEXT;
     }
 }
 
@@ -62,7 +62,7 @@ function restart() {
         box.style.backgroundColor = ''
     });
     playerText = 'tic tac toe'
-    currentPlayer = x_TEXT;
+    currentPlayer = X_TEXT;
 
 }
 startGame();
