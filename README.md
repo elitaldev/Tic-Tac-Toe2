@@ -1,12 +1,14 @@
-# Lunaria BEAUTY
+# TIC TAC TOE
 
 [View live project here on GitHub](https://elitaldev.github.io/lunaria/)
 
-lunaria beauty is a small, local business in the heart of london. who look after your skin in our lovley, warm clinic surrounded with freindly team who can give you the best advice for taking care of your skin and younger.
+TIC TAC TOE is a simple game with HTML, JAVASCRIPT and CSS.
+
+
 
 <br>  
   
-![screenshot of landing page](/docs/landing-page-lunaria.png)
+![screenshot of landing page](./assets/image/tic.tac.toe.png)
 
 ---
 
@@ -45,45 +47,30 @@ lunaria beauty is a small, local business in the heart of london. who look after
 
 ---
 
-## User Experience (UX)
 
-### **User Stories**
 
 ### **Primary Goal**
 
-SCOOPS Ice Cream Parlour is a friendly, local ice cream parlour. It needed a clear and striking website design that reflected the parlour's traditional flavours and aesthetic.
+To make a move, the player will use the mouse single click to mark a space. In this version, there is no provision to undo the move. As soon as the move is done, the game proceeds to the next player’s chance.
 
-Lunaria beauty, friendly, proffesional, trained team nedded a clear and simple website design so they can improve there business in local area.
 
-### **Visitor Goals**
 
-lunaria beauty is mostly for women who's looking to Prevent further damage both from light/sun and the environment to there skin;
-Keeping our skin looking beautiful by optimizing hydration, barrier function and cell turnover, and minimizing irritation
-Helping to repair past superficial damage to skin.
-which cannot repair deep damage to skin with skin care products. They don’t go deep enough.
-In addition, an interactive Google Map would be needed to direct those not familiar with the town.
 
 ### **First Time Visitor**
 
-- A user can access each page of the site with one click via the navigation bar.
-- A user can access the menu and prices via the button located on the navbar called pricelist.
-- A user can view our social media address in footer.
-- A user can find a map on the contact page.
+- the game has only one page to navigate.
+- A user can access the game using mouse and has to pass the mouse to the next player.
+- A user can restart the game using the restart button on the top of the screen.
 
-### **Returning Visitor**
 
-- A user can quickly access the menu via the landing page.
-- A user can learn about the treatments on the landing page.
-- A user can find social media links in the footer to learn more about lunaria.
-- A user can use the contact form to connect with the business.
 
-### **Frequent Visitor**
 
-- A user can view the social media links to check for menu updates.
 
----
+
 
 ## Creation Process
+we have three files which is html , css and js files.
+i created 9 blocks in html file and styled it in css file and make the game work using javascript.
 
 ### **1. Strategy**
 
