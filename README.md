@@ -82,7 +82,8 @@ i created 9 blocks in html file and styled it in css file and make the game work
 - i have created winning combination.
 
 
-### **2. Scope**
+### **2. game
+**
 
 This is a game for kids under 10 years old.
 it has been created simple and easy to play.
@@ -104,133 +105,47 @@ the game was developed to be simple, clear and easy to play..
 <details open>
 <summary>Wireframe - Homepage Desktop</summary>
 
-![homepage wireframe- desktop](/docs/home.jpg)
-
-</details> 
-<details >
-<summary>Wireframe - pricelist page Desktop</summary>
-
-![price list wireframe-desktop](/docs/price%20list.jpg)
+![homepage wireframe- desktop](./assets/image/wireframe.png)
 
 
-</details> 
-<details>
-
-![testimonials wireframe-desktop](/docs/testimonials.jpg)
-
-<summary>Wireframe - testimonials page Desktop</summary>
-</details>    
-<details>
-<summary>Wireframe - Contact page Desktop</summary>
-
-![contact wireframe-desktop](/docs/contact.jpg)
-
-</details>
-
-### **5. Surface**
-
--
-- A design was created that allowed a consistent flow throughout the four-page site.
-
-- A palette of gray and green was created, similar to the interior of the parlour.
-- A clean, playfair, was used in a medium weight to provide legible text at any size.
-- back to top buttons has settled in all the pages to make it easy for the visitors when the y scroll down.
 
 ## Design
 
 ### **Color Scheme**
+this game used fresh light blue color scheme to 
 
-This website used a fresh, bold palette of grey and greenish warm color to capture the aesthetic of a beauty. The colours reminded me of feeling fresh and relax. I combined these with an off-white shade for the field of the form.
 
 ### **Typography**
 
-[Google Fonts](https://fonts.google.com/) was used to import the fonts 'playfair' and 'Lato'. I felt the clear, soft lettering suited the intended aesthetic of the website. I had intentions to use Lato for my smaller bodies of text, however, I chose to stick with playfair to keep the font consistent.
+[Google Fonts](https://fonts.googleapis.com) was used to import the fonts 'finger paint', cursive'.
 
-![google Fonts playfair](/docs/fonts%20-%20Edited.png)
+![google Fonts finger paint](https://fonts.gstatic.com)
 
-### **Imagery**
 
-The images that I have chosen for my site reflect the freshness. A large image sits below the menu options, it shows the freshness and looking good and taking car of your skin. The sites [pexels.com](https://www.pexels.com/), [unsplash.com](https://unsplash.com/) and [canva.com](https://canva.com/) provided the royalty-free stock images used throughout the website, with attributions to each photographer placed in the [Credits](#credits) section of this README doc.
 
----
 
-## Page Features
-
-### **Navbar**
-
-<details open>
-<summary></summary>
-
-![screenshot of navbar](/docs/canva-navbar.jpg)
-
-</details>
-This remains the same across the three pages, in portrait/landscape and mobile/tablet/desktop view.
+.
   
 <br>
 
-### **Hero Image**
 
-<details open>  
-<summary></summary>
-
-![screenshot of hero image](/assets/images/pexels.jpg)
-
-</details>
-The hero image remains the same across all devices, with it becoming square-shaped for smaller screens.
-
-<br>
 
 ### **buttons**
 
 <details open>
 <summary></summary>
 
-![screenshot of button](/docs/canva-button.jpg)
+![screenshot of button](./assets/image/button.png)
 
 </details>
-
-secondary button in a light gray has been set.
-The back to top button was given different shades of the original colour palette to allow its contrast ratio to conform to the accessibility needs of the site.
-
-<br>
-
-### **Menu Page**
-
-<details>
-<summary></summary>
-
-![](./docs/canva-menu.jpg)
-
-</details>
-good size round image design the wole page with details of all the tratments and the prices,offers and duration of the treatment.
-a large image of women having facial and micronnedling situated at the middle of the page. with greenish nice color background.
-
-The menu format switches to columnar for the tablet/mobile views.
-
-<br>
-
-### **Contact Page**
-
-<details>
-<summary></summary> 
- 
-![screenshot of contact us page](/docs/canva-contact.jpg)  
-</details>
+restart button in light blue has been set.
+player can hover over the button and a little animation will be applied.
 
  
-big size of background image and a form on the right hand side of the page business with a form element and an embedded, interactive Google map, sitting underneath the image. These elements switch to columnar format for tablet/mobile views.
+
 
 <br>
 
-### **Footer**
-
-<details>
-<summary></summary>
-
-![screenshot of footer](/docs/canva-footer.jpg)
-
-</details>
-The footer remains the same throughout the design. It contains social media links in the middle of the footer.
 
 
 ## Tablet & Mobile View
@@ -241,39 +156,33 @@ To ensure responsivity I used sm and md from bootstrap. and contact sections wer
 
 ### **Tablet View (iPad Mini/iPad Pro/Surface Pro)**
 
-![screenshots of lunaria website on ipad pro](/docs/contact-ipad)
+![screenshots of tic tac toe website on ipad pro](./assets/image/ipad.png)
 
 ### **Mobile View (iPhone 5/iPhone SE/iPhone XR/iPhone 12 Pro)**
 
-![screenshot of lunaria website on iPhone 12 Pro](/docs/lunaria-mobil.jpg)
+![screenshot of tic tac toe website on iPhone 12 Pro](./assets/image/iphone12.png)
 
----
 
 ## Future Features
-
-- For future development, I would like to include more proffesional images and more hovering.
-an embedded video of facial and skin care routin.
-showing costumer how to take acare of their skin and look younger in their 50s.
+- for future features i would like to use more colores and  aharder game using javascript to make a game for adults.
 
 
----
 
-## Technologies Used
+
+
 
 ### **Languages Used**
 
 - HTML5
 - CSS3
-- bootstrap
+- JavaScript
 
 ### **Frameworks, Libraries, Technologies & Programs Used**
 
-- Procreate - used to create wireframes and edit images
+
 - GitHub - used to save and store all files for this website
 - Git - used for version control
 - Google Fonts - fonts were imported from here
-- Font Awesome - icons and their associated kit were downloaded from here
-
 - Google Dev Tools - to debug and for testing responsiveness
 - Google Lighthouse - for auditing the website
 - W3C Validator - for validating the HTML and CSS code
@@ -287,14 +196,14 @@ showing costumer how to take acare of their skin and look younger in their 50s.
 GitHub was used to deploy the website. These were the steps taken to acheive this:
 
 1. Login to GitHub account
-2. Navigate to the project repository, scoops_pp1
+2. Navigate to the project repository, toc tac toe2
 3. Click the Settings button near the top of the page
 4. In the left-hand menu, find and click on the Pages button
 5. In the Source section, choose 'main' from the drop-down, select branch menu
 6. Select 'root' from the drop-down folder menu
 7. Click 'Save' and after a few moments the project will have been made live and a link is visible at the top of the page
 
-![screenshot of how to deploy site on github](/docs/github-jpg)
+![screenshot of how to deploy site on github]( https://elitaldev.github.io/Tic-Tac-Toe2/)
 
 ---
 
@@ -302,15 +211,14 @@ GitHub was used to deploy the website. These were the steps taken to acheive thi
 
 ### **Initial testing plan**
 
-I had planned for this site to be accessible and legible on all screen sizes. The user is viewing the site primarily for the menu options and parlour location and they needed to access this information with one click. I used Chrome Dev Tools to test, tweak and debug in the early stages. I deployed my site halfway through to test on real-world devices. These devices included:
+I had planned for this game to be accessible and legible on all screen sizes. I deployed my site halfway through to test on real-world devices. These devices included:
 
 - Acer Aspire 3 Laptop (1920 X 1080)
 
 - iPad Pro 2021
 - iPhone SE(2016)
-- Huawei p30 Lite
-- iPhone 11/13
-- Samsung Galaxy s10
+- when it goes smaller than 450px, it won't be responsive.
+
 
 ### **Testing**
 
@@ -325,7 +233,7 @@ The results of feature testing are as follows:
 
 | Page    | Test                                                                     | Pass/Fail |
 | :------ | :----------------------------------------------------------------------- | :-------: |
-| All     | lunaria logo links back to homepage                                       |   Pass    |
+| All     |                                     |   Pass    |
 | All     | Underline appears under navigation items when the mouse hovers           |   Pass    |
 | All     | Underline stays under active navigation item                             |   Pass    |
 | All     | Navigation links bring the user to relevant page                         |   Pass    |
@@ -352,19 +260,7 @@ Further device testing took place in Dev Tools on:
 <details open>
 <summary>Index/landing page HTML validation</summary>
 
-![screenshot of index page w3c html validation for lunaria](docs/documentation/w3c_index.png)
-
-</details>   
-<details>
-<summary>Menu page HTML validation</summary>
-
-![screenshot of menu page w3c html validation for lunarai](docs/documentation/w3c_menu.png)
-
-</details>  
-<details>
-<summary>Contact page HTML validation</summary>
-
-![screenshot of contact page w3c html validation for lunaria](docs/documentation/w3c_contact.png)
+![screenshot of index page w3c html validation for tic tac toe](./assets/image/html%20validation.png)
 
 </details>  
   
@@ -373,9 +269,9 @@ Further device testing took place in Dev Tools on:
 ### **CSS Validation using W3C Validation**
 
 <details open>
-<summary>SCOOPS CSS validation</summary>
+<summary>tic tac toe CSS validation</summary>
 
-![screenshot of CSS validation for lunaria](docs/documentation/w3c_css.png)
+![screenshot of CSS validation for tic tac toe](./assets/image/css%20validation.png)
 
 </details>
 
@@ -383,48 +279,9 @@ Further device testing took place in Dev Tools on:
 
 ### **Lighthouse scores via Chrome Developer Tools**
 
-For Desktop
-
-<details open>
-<summary>Lighthouse audit for Index page</summary>
-
-![screenshot of lighthouse audit for index page for lunaria]()
-
-</details> 
-<details >
-<summary>Lighthouse audit for Menu page</summary>
-
-![screenshot of lighthouse audit for menu page for lunaria]()
-
-</details>
-<details >
-<summary>Lighthouse audit for Contact page</summary>
-
-![screenshot of lighthouse audit for contact page for lunaria]()
-
-</details>
 
 <br>
-  
-For Mobile   
-<details open>
-<summary>Lighthouse audit for Index page - Mobile</summary>
-
-![screenshot of lighthouse audit for index page for lunaria]()
-
-</details> 
-<details >
-<summary>Lighthouse audit for Menu page - Mobile</summary>
-
-![screenshot of lighthouse audit for menu page for lunaria]()
-
-</details>
-<details >
-<summary>Lighthouse audit for Contact page - Mobile</summary>
-
-![screenshot of lighthouse audit for contact page for lunaria]()
-
-</details>      
+      
   
   
 ### **Bugs & Fixes**  

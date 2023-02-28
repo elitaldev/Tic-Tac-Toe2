@@ -6,6 +6,7 @@ let winnerIndicator = getComputedStyle(document.body).getPropertyValue(
   "--winning-blocks"
 );
 
+// 
 const o_TEXT = "O";
 const x_TEXT = "X";
 let currentPlayer = x_TEXT;
