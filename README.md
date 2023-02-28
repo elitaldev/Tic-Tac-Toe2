@@ -1,8 +1,8 @@
 # TIC TAC TOE
 
-[View live project here on GitHub](https://elitaldev.github.io/lunaria/)
+[View live project here on GitHub]( https://elitaldev.github.io/Tic-Tac-Toe2)
 
-TIC TAC TOE is a simple game with HTML, JAVASCRIPT and CSS.
+TIC TAC TOE.
 
 
 
@@ -10,7 +10,7 @@ TIC TAC TOE is a simple game with HTML, JAVASCRIPT and CSS.
   
 ![screenshot of landing page](./assets/image/tic.tac.toe.png)
 
----
+
 
 ## CONTENTS
 
@@ -120,11 +120,6 @@ this game used fresh light blue color scheme to
 [Google Fonts](https://fonts.googleapis.com) was used to import the fonts 'finger paint', cursive'.
 
 ![google Fonts finger paint](https://fonts.gstatic.com)
-
-
-
-
-.
   
 <br>
 
@@ -203,7 +198,7 @@ GitHub was used to deploy the website. These were the steps taken to acheive thi
 6. Select 'root' from the drop-down folder menu
 7. Click 'Save' and after a few moments the project will have been made live and a link is visible at the top of the page
 
-![screenshot of how to deploy site on github]( https://elitaldev.github.io/Tic-Tac-Toe2/)
+![screenshot of how to deploy site on github](./assets/image/deploy.jpg)
 
 ---
 

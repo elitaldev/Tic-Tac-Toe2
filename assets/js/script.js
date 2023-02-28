@@ -1,18 +1,27 @@
+
 let playerText = document.getElementById("playerText");
 let restartBtn = document.getElementById("restartBtn");
 let boxes = Array.from(document.getElementsByClassName("box"));
 
+
+
 let winnerIndicator = getComputedStyle(document.body).getPropertyValue(
   "--winning-blocks"
 );
+// creat functionality for the game//
 
-// 
 const o_TEXT = "O";
 const x_TEXT = "X";
+
+// we will start the game with X text //
 let currentPlayer = x_TEXT;
 
+
+// to track which box has been clicked //
 let spaces = Array(9).fill(null);
 
+
+// start the game //
 const startGame = () => {
   boxes.forEach((box) => box.addEventListener("click", boxClicked));
 };
@@ -23,7 +32,7 @@ function boxClicked(e) {
   if (!spaces[id]) {
     spaces[id] = currentPlayer;
     e.target.innerText = currentPlayer;
-
+     // player has won the game //
     if (playerHasWon() !== false) {
       playerText = `${currentPlayer} has won!`;
 
@@ -33,10 +42,14 @@ function boxClicked(e) {
       );
       return;
     }
+
+    // overwrite the current player //
     currentPlayer = currentPlayer == x_TEXT ? o_TEXT : x_TEXT;
   }
 }
 
+
+// winning combinations //
 const winningCombos = [
   [0, 1, 2],
   [3, 4, 5],
@@ -59,16 +72,19 @@ function playerHasWon() {
   return false;
 }
 
-
+// restart the game //
 restartBtn.addEventListener("click", restart);
 function restart() {
   spaces.fill(null);
 
+
+  // loop through all the boxes //
   boxes.forEach((box) => {
     box.innerText = "";
     box.style.backgroundColor = "";
   });
   playerText = "tic tac toe";
+  // default current player to X //
   currentPlayer = x_TEXT;
 }
 startGame();
