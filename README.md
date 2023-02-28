@@ -73,44 +73,31 @@ we have three files which is html , css and js files.
 i created 9 blocks in html file and styled it in css file and make the game work using javascript.
 
 ### **1. Strategy**
+- First i created an array then i created some functionality for the game.
+- The game will start with the X text.
+- When a player clicks the button, it will be saved and that button cannot be used again. so O text does not override X text.
+- I have added eventlistener to each of my dom elements.
+- I have given a each block for one player, that means if current playe, play X the next player can only play O.
+- We have a restart button which will restart the game and clear out spaces array.
+- i have created winning combination.
 
-- I required an easy-to-read, dependable website that delivers clear information about menu options and opening times.
-- Location of the clinic must be visible and social media links available.
-- clean and simple design and use of graphics and colour to motivate the user.
-- Pricing within the pricelist page is to be transparent and simple.
-- Mobile responsiveness is an essential feature required for this website.
 
 ### **2. Scope**
 
-A large portion of their clients are young women age 20 to 40 who are looking for the best treatments and they want to prevent of any kind of damage and wrinkle to their skin, and they want to spend an hour calmly in a quite place, feeling relax.
+This is a game for kids under 10 years old.
+it has been created simple and easy to play.
 
-- The site is to contain only essential information, presented in a similar fashion and layout.
-- Text must be clear and legible on any sized device to allow the user instant access to the menu, location, and opening times.
--
-- For future development, the testimonials page has focused on before and after the treatment so clients can introduce lunaria to their friends.
+
 
 ### **3. Structural**
 
-- Similar to the idea for the design and layout to be accessible and functional, simple navigation were essential. The site needed to provide information to encourage young women to take care of their skin.
-- Easy to identify, clickable links with a consistent layout. The design was to be predictable for each page with the information clearly identifiable.
-- A large, clear button to bring the user directly to the menu would be placed front and center of their eye-line.
-- In addition, a navigation bar and footer would be visible,where navigation bar sticked at the top of the page when you scrooled down in every page, at every device size, displaying the same information. This would provide the returning customer with a faster route to their information destination.
+the game has got a simple structure with 9 blocks and a restart button and when aplayer has won, the game is over.
 
 ### **4. Skeleton**
+the game was developed to be simple, clear and easy to play..
 
-The site was developed to be simple, clear, and relax.
 
-- For the landing page, the logo, lunaria beauty, was to be at the center of every page, no matter the orientation or screen size.
-- The simple, four-item navigation bar of 'Home', 'price list', testimonials and 'Contact', is situated always to the middle of the page and undeneath the logo. An underline feature identifying the current page and also a hover on the menu.
-- A large, clear image dominates the landing page with a close-up view of a woman feeling fresh and fabolouse.
-- right side of the image, clickable button situated on the image which takes you to the contact page and testimonials page. First-time visitors have access to the menu with one easy click.
 
-- The page ends with the footer, where the social media has placed.
-
-- For the price list page, the navigation bar and footer remain as before. included all the treatments and the time of the treatments, offers and all the prices with very good size of image which has describe almost all the treatments.
-- For the contact us page, the navigation and footer remain as before. big size of eucalyptus leaf behine the form is intoducing the freshnes of the clinic to the client. An optional form for visitors who wish to connect with the business with an interactive Google Map with the business location pinned. There is an option to enlarge the map in a new window and find directions.
-
-![test](/docs/canva-button.jpg)
 
 ### Wireframes
 
