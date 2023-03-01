@@ -112,7 +112,9 @@ the game was developed to be simple, clear and easy to play..
 ## Design
 
 ### **Color Scheme**
-this game used fresh light blue color scheme to 
+this game used 4 pallet color scheme.
+[color scheme](./assets/image/pallet.color.png)
+
 
 
 ### **Typography**
@@ -146,8 +148,10 @@ player can hover over the button and a little animation will be applied.
 ## Tablet & Mobile View
 
 ### **Desktop, Tablet & Mobile Differences**
+desktop view is available but not supported on all platforms.
+when it goes smaller than 450px it  doesn't work.
+it works in desktop and tablet views.
 
-To ensure responsivity I used sm and md from bootstrap. and contact sections were displayed in a row format for desktops but this switched to a column for smaller screen sizes. The header and footer remained the same, whilst images were resized to fit the display.
 
 ### **Tablet View (iPad Mini/iPad Pro/Surface Pro)**
 
