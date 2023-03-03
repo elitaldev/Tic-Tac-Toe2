@@ -43,6 +43,7 @@ TIC TAC TOE.
 - [Credits](#credits)
 
 ---
+
 ### **Primary Goal**
 
 To make a move, the player will use the mouse single click to mark a space. In this version, there is no provision to undo the move. As soon as the move is done, the game proceeds to the next player’s chance.
@@ -95,11 +96,11 @@ the game was developed to be simple, clear and easy to play..
 ### **Color Scheme**
 
 this game used 4 pallet color scheme.
-[color scheme](./assets/image/pallet.color.png)
+![color scheme](./assets/image/pallet.color.png)
 
 ### **Typography**
 
-[Google Fonts](https://fonts.googleapis.com) was used to import the fonts 'finger paint', cursive'.
+![Google Fonts](https://fonts.googleapis.com) was used to import the fonts 'finger paint', cursive'.
 
 ![google Fonts finger paint](https://fonts.gstatic.com)
 
@@ -119,8 +120,8 @@ player can hover over the button and a little animation will be applied.
 <br>
 
 ## Functions
-![screenshot of js code](./assets/image/js1.png)
 
+![screenshot of js code](./assets/image/js1.png)
 
 -The above variables is to set the buttuns and blocks of the game.
 
@@ -130,14 +131,26 @@ player can hover over the button and a little animation will be applied.
 
 ![screenshot of js code](./assets/image/js3.png)
 
--The above content shows that certain combinations that player nedds to hit in order to win the game. when you have "x" in a row and "o2 in a row,also vertically and horizontally.
+-The above content shows that certain combinations that player nedds to hit in order to win the game. when you have "x" in a row and "o" in a row,also vertically and horizontally.
 this shows how i have created the combinathons.
 
 ![screenshot of js code](./assets/image/js4.png)
 
 -The above content shows how the restart button can be clicked and start a new game.
 
+![screenshot of js code](./assets/image/js5.png)
+
+-the above content shows when you click any of the boxes the game will start with "x" text.
+when a player has won the game, 
+
+![screenshot of js code](./assets/image/js6.png)
+
+- The above content shows if user "x" has currently fill all the spaces, if so that user has won.
 ## Tablet & Mobile View
+
+![screenshots of responsivness](./assets/image/responsiv.png)
+
+It looks ok on every screen size but not mobile phone.
 
 ### **Desktop, Tablet & Mobile Differences**
 
@@ -215,22 +228,10 @@ Testing took place throughout the entire build using Dev Tools on Chrome and on 
 
 The results of feature testing are as follows:
 
-| Page    | Test                                                                     | Pass/Fail |
-| :------ | :----------------------------------------------------------------------- | :-------: |
-| All     |                                                                          |   Pass    |
-| All     | Underline appears under navigation items when the mouse hovers           |   Pass    |
-| All     | Underline stays under active navigation item                             |   Pass    |
-| All     | Navigation links bring the user to relevant page                         |   Pass    |
-| All     | Footer social media icons bring the user to relevant sites via a new tab |   Pass    |
-| All     | 'book now button take the user to contact page                           |   Pass    |
-| All     | Images and sections are responsive in different media sizes              |   Pass    |
-| Index   |
-| Index   | view button take user to price list page                                 |   Pass    |
-| Menu    |
-| Menu    | Menu items are clear and legible                                         |   Pass    |
-| Contact | Contact form required elements are responsive                            |   Pass    |
-| Contact | Form submit button brings you to a validation page                       |   Pass    |
-| Contact | Google Map is interactive and opens in a new tab for a larger map        |   Pass    |
+| Page | Test                                                                     | Pass/Fail |
+| :--- | :----------------------------------------------------------------------- | :-------: |
+| All  | when the mouse hover on restart button you will notice a small animation |   Pass    |
+| All  | 9 button to play the game                                                |   Pass    |
 
 Further device testing took place in Dev Tools on:
 
@@ -275,11 +276,10 @@ Further device testing took place in Dev Tools on:
 | I had problem with winning combination const, I didn't undrestand the whole concept  | Index/Home page | After searching and after my teacher explained to me it became understandable for me.|
 | I also had issue with hovering on the restart button | Index/Home page | After searching on w3 school website and going through CSS I was able to fix the problem. |
 
-
 ### **Unsolved Bugs**
 
 - I have a unsolved bug in winnerIndicator, what i was aiming was to have the winner's block to be highlighted when the player win.
-but unfortunately i couldn't find a way to fix this.but I will try to find a solution for my future project.
+  but unfortunately i couldn't find a way to fix this.but I will try to find a solution for my future project.
 
 ---
 
@@ -293,8 +293,6 @@ but unfortunately i couldn't find a way to fix this.but I will try to find a sol
 - [youtube](https://www.youtube.com/) to get more Idea and learn more about making a game.
 - [fontawesem](https://fontawesome.com/) for the icons.
 - [Browserstack](https://www.browserstack.com/guide/)
-
-
 
 ### **Acknowledgements**
 
