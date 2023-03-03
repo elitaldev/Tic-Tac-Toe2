@@ -96,13 +96,13 @@ the game was developed to be simple, clear and easy to play..
 ### **Color Scheme**
 
 this game used 4 pallet color scheme.
-![color scheme](./assets/image/pallet.color.png)
+![color scheme](./assets/image/color.pallet.png)
 
 ### **Typography**
 
 ![Google Fonts](https://fonts.googleapis.com) was used to import the fonts 'finger paint', cursive'.
 
-![google Fonts finger paint](https://fonts.gstatic.com)
+![google Fonts finger paint](./assets/image/font.png)
 
 <br>
 
